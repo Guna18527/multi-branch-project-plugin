@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ('git checkout') {
             steps {
-                git 'https://github.com/Guna18527/mavenprivate.git'
+                git 'https://github.com/Guna18527/multi-branch-project-plugin.git'
             }
         }
 	 stage('maven') {
